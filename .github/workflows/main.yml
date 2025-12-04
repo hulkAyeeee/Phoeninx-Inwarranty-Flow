@@ -58,13 +58,11 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: Phoenix Inwarranty Flow Test Execution Notification
-          to: |
-               nik7hulke@gmail.com
-               jainsonali16699@gmail.com
+          to: nik7hulke@gmail.com, jainsonali16699@gmail.com
           from: ${{ secrets.EMAIL_USERNAME }}
           body: |
                 Hi,
-                Phoenix Inwarranty flow has been executed . The Report has been published and the URL
+                Phoenix Inwarranty flow has been executed. The Report has been published, and the URL
                 is: https://hulkayeeee.github.io/Phoeninx-Inwarranty-Flow/
           
 
